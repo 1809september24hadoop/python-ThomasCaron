@@ -50,6 +50,10 @@ param: str
 return: str
 '''
 def reverse(string):
+        str=""
+        for ch in string:
+                str= ch+str
+        return str
 
 '''
 2. Convert a phrase to its acronym. Techies love their TLA (Three Letter
